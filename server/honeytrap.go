@@ -325,6 +325,7 @@ func compareAddr(addr1 net.Addr, addr2 net.Addr) bool {
 // Run will start honeytrap
 func (hc *Honeytrap) Run(ctx context.Context) {
 	if IsTerminal(os.Stdout) {
+		print("\033[H\033[2J")
 		fmt.Println(color.YellowString(`
  _   _                       _____                %c
 | | | | ___  _ __   ___ _   |_   _| __ __ _ _ __
@@ -335,6 +336,7 @@ func (hc *Honeytrap) Run(ctx context.Context) {
 `, 127855))
 	}
 
+	fmt.Println(color.YellowString("Selamat Datang Pengguna Honeytrap"))
 	fmt.Println(color.YellowString("Honeytrap starting (%s)...", hc.token))
 	fmt.Println(color.YellowString("Version: %s (%s)", cmd.Version, cmd.ShortCommitID))
 
