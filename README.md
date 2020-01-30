@@ -22,6 +22,13 @@
 
 See our documentation on [docs.honeytrap.io](http://docs.honeytrap.io/).
 
+## To Start using server local
+
+ * download semua file yang tersedia pada repositori ini ke dalam server local 
+ * Pindahkan terlebih dahulu file config.toml ke dalam server local di lokasi "/etc/honeytrap/config.toml"
+ * pada lokasi yang terdapat file main.go gunakan perintah "$ go run ."
+    Misalnya: Repositori ini di download pada "/root/" kemudian folder honeytrap tersedia di dalam "/root/honeytrap" maka pada lokasi       "/root/honeytrap" gunakan perintah "$go run ."
+   
 ## Community
 Join the [honeytrap-users](https://groups.google.com/forum/#!forum/honeytrap-users) mailing list to discuss all things Honeytrap.
 
