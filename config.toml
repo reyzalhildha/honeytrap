@@ -29,3 +29,7 @@ channel=["console"]
 [[logging]]
 output = "/root/honeytrap/honeytraplogs.txt"
 level = "debug"
+
+[[logging]]
+output = "stdout"
+level = "debug"
