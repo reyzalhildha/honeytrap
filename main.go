@@ -26,6 +26,14 @@ func init() {
 }
 
 func main() {
-	app := honeytrap.New()
-	app.Run(os.Args)
+        go forever()
+        select {}
 }
+
+func forever() {
+        for {
+                app := honeytrap.New()
+                app.Run(os.Args)
+        }
+}
+
