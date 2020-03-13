@@ -27,7 +27,7 @@ type="console"
 channel=["console"]
 
 [[logging]]
-output = "/root/honeytrap/honeytraplogs.txt"
+output = "/var/www/html/loggingtrap.txt"
 level = "debug"
 
 [[logging]]
