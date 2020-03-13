@@ -1,4 +1,4 @@
-#Pindahkan file ke dalam server local di lokasi "/etc/honeytrap/config.toml"
+#Pindahkan file config.toml ke dalam server local di lokasi "/etc/honeytrap/"
 
 [listener]
 type="socket"
