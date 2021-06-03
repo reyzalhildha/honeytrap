@@ -22,12 +22,12 @@
 
 See our documentation on [docs.honeytrap.io](http://docs.honeytrap.io/).
 
-## Cara Menggunakan Honeytrap dalam server
+## How to Use Honeytrap on the server
 
- * download semua file yang tersedia pada repositori ini ke dalam server 
- * Pindahkan terlebih dahulu file config.toml ke dalam server local di lokasi "/etc/honeytrap/config.toml"
- * pada lokasi yang terdapat file main.go gunakan perintah "$ go run ."
-    Misalnya: Repositori ini di download pada "/root/" kemudian folder honeytrap tersedia di dalam "/root/honeytrap" maka pada lokasi       "/root/honeytrap" gunakan perintah "$go run ."
+   *download all the files available in this repository to the server
+   * First move the config.toml file to the local server in the location "/etc/honeytrap/config.toml"
+   * at the location where the main.go file is, use the command "$go run ."
+      For example: This repository is downloaded at "/root/" then the honeytrap folder is available at "/root/honeytrap" then at the location "/root/honeytrap" use the command "$go run ."
    
 ## Community
 Join the [honeytrap-users](https://groups.google.com/forum/#!forum/honeytrap-users) mailing list to discuss all things Honeytrap.
